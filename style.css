@@ -1,0 +1,336 @@
+html {
+  font-family: Poppins;
+}
+body {
+  background-color: #cbcbd9;
+}
+
+div.sidebar {
+  background-color: #ee6338;
+  height: 600px;
+  width: 12%;
+  margin: 25px 0 95px 105px;
+  border-radius: 25px;
+  position: absolute;
+}
+
+div.container {
+  display: flex;
+  justify-content: flex-start;
+  width: 75%;
+  height: 550px;
+  position: absolute;
+  margin: 50px 25px 25px 135px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  z-index: 1;
+}
+
+div.box-left {
+  height: 550px;
+  width: 20%;
+  background-color: #f8f8ff;
+  border-radius: 25px 0 0 25px;
+}
+
+div.box-left > p.name {
+  color: #1a194d;
+  font-weight: bolder;
+  font-size: 12px;
+  margin-left: 65px;
+  margin-top: 45px;
+}
+
+div.box-left > p.username {
+  color: #616192;
+  font-size: 10px;
+  margin-left: 65px;
+}
+
+div.account-details {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  margin-top: 40px;
+}
+
+div.active-bar {
+  background-color: #ee6338;
+  height: 1px;
+  width: 5px;
+  margin-right: 3px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+div.account-details div {
+  height: 50px;
+  position: relative;
+  left: 15px;
+}
+
+div.account-details > div a {
+  position: relative;
+  left: 25px;
+  top: 5px;
+  color: #616192;
+}
+
+div.account-details > div:hover {
+  cursor: pointer;
+  border-left: 4px solid #ee6338;
+  border-radius: 4px;
+}
+
+div.log-out {
+  height: 50px;
+  margin-top: 105px;
+}
+
+span.material-symbols-outlined {
+  position: relative;
+  top: 15px;
+  left: 20px;
+  color: #616192;
+}
+
+div.log-out a {
+  color: #616192;
+  position: relative;
+  left: 20px;
+  top: 5px;
+}
+div.box-center {
+  height: 550px;
+  width: 560px;
+  background-color: #ffffff;
+}
+
+p.heading {
+  color: #1a194d;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 35px;
+  margin-left: 70px;
+}
+
+p.order-history {
+  color: #1a194d;
+  font-weight: bolder;
+  font-size: 10px;
+  margin-top: 35px;
+  margin-left: 70px;
+}
+
+p.manage-order {
+  color: #616192;
+  font-size: 10px;
+  margin-left: 70px;
+}
+
+div.bill-history {
+  height: 170px;
+  width: 75%;
+  margin: 25px 25px 25px 30px;
+}
+
+div.data-table {
+  display: flex;
+  color: #616192;
+  font-size: 10px;
+  font-weight: 500;
+}
+div.data-table > ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+div.data-table > ul li.bill-type {
+  margin-left: 110px;
+}
+
+div.data-table > ul li.receipt {
+  margin-left: 110px;
+}
+
+div.first-payment-details {
+  display: flex;
+  justify-content: space-around;
+  color: #1a194d;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+div.second-payment-details {
+  display: flex;
+  justify-content: space-around;
+  color: #1a194d;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+div.third-payment-details {
+  display: flex;
+  justify-content: space-around;
+  color: #1a194d;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+div.fourth-payment-details {
+  display: flex;
+  justify-content: space-around;
+  color: #1a194d;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+div.first-payment-details:hover {
+  box-shadow: 8px 8px 18px 3px rgb(208, 223, 228);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+div.second-payment-details:hover {
+  box-shadow: 8px 8px 18px 3px rgb(208, 223, 228);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+div.third-payment-details:hover {
+  box-shadow: 8px 8px 18px 3px rgb(208, 223, 228);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+div.fourth-payment-details:hover {
+  box-shadow: 8px 8px 18px 3px rgb(208, 223, 228);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button {
+  color: #1a194d;
+  font-family: poppins;
+  font-size: 10px;
+  font-weight: 500;
+  height: 22px;
+  margin-top: 5px;
+  background-color: #ffffff;
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+div.load {
+  height: 12px;
+  font-size: 10px;
+  font-weight: 500;
+  padding-left: 70px;
+  color: #ee6338;
+  text-decoration: underline;
+}
+
+div.load > p:hover {
+  cursor: pointer;
+}
+
+p.payment {
+  color: #1a194d;
+  font-weight: bolder;
+  font-size: 10px;
+  margin-left: 70px;
+  margin-top: 35px;
+}
+
+p.manage-bill {
+  color: #616192;
+  font-size: 10px;
+  margin-left: 70px;
+}
+
+div.payment-details {
+  display: flex;
+  height: 40px;
+  width: 65%;
+  margin-left: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.image {
+  height: 50px;
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+}
+img.visa-logo {
+  height: 15px;
+  width: 45px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 10px;
+  margin-top: 12px;
+  color: #1a194d;
+}
+
+div.button {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.box-right {
+  height: 550px;
+  width: 25%;
+  background-color: #ffffff;
+  border-radius: 0 25px 25px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+div.plan {
+  height: 180px;
+  width: 210px;
+  background-color: #ee6338;
+  border-radius: 15px;
+  margin-top: 115px;
+}
+
+div.plan > p {
+  font-size: 12px;
+  color: #ffffff;
+  padding: 15px 0 0 25px;
+}
+
+div.plan > p.annual {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 0 0 0 25px;
+}
+
+div.plan > p.renew {
+  font-size: 10px;
+  color: #ffffff;
+  padding: 0 0 0 25px;
+}
+
+div.plan button {
+  background-color: #ee6338;
+  color: #ffffff;
+  border-color: #ffffff;
+  margin-left: 25px;
+}
+div.plan button:hover {
+  background-color: white;
+  color: #ee6338;
+  border-color: #ee6338;
+  transition-duration: 0.3s;
+}
